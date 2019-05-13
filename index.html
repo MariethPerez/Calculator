@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <form id="calculator">
+      <input type="number" step="0.01" id="first" />
+      <input type="number" step="0.01" id="second" />
+      <select name="operations">
+        <option value="sum">Sum</option>
+        <option value="rest">Rest</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+        <option value="square">Square</option>
+        <option value="power">Power</option>
+      </select>
+      <input type="submit" value="Calculate" />
+      <output name="result"></output>
+    </form>
+  </body>
+  <script src="index.js"></script>
+</html>
